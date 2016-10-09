@@ -1,0 +1,14 @@
+/* Larger than desktop */
+
+@media (max-width: 768px) {
+	
+}
+
+@media (max-width: 993px) and (min-width: 768px) {
+	
+}
+
+
+/* Larger than desktop HD */
+
+@media (min-width: 1200px) {}

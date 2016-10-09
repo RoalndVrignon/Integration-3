@@ -1,5 +1,23 @@
 @import "compass/css3";
 
 body {
-  background-color: blue;
+  #page3 {
+    background-color: #edeeef;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    .img {
+      width: 180px;
+      height: 180px;
+      margin: 0px auto;
+    }
+    .fa:hover{
+      background-color: blue;
+    }
+
+  }
+
+  #page4 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
 }

@@ -1,0 +1,460 @@
+/* line 5, ../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* Variables */
+/* line 11, ../sass/app.scss */
+body {
+  font-family: Open Sans !important;
+}
+
+/* line 15, ../sass/app.scss */
+a {
+  color: #fff !important;
+}
+
+/* line 20, ../sass/app.scss */
+header {
+  background-image: url(../img/background.jpg);
+  background-repeat: none;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  color: #fff;
+  height: 900px;
+}
+/* line 31, ../sass/app.scss */
+header .accroche {
+  padding-top: 300px;
+  padding-bottom: 200px;
+}
+/* line 34, ../sass/app.scss */
+header .accroche .first-line {
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-size: 40px;
+  line-height: 40px;
+  margin-bottom: 25px;
+}
+/* line 41, ../sass/app.scss */
+header .accroche .second-line {
+  font-family: Montserrat, "Helvetica Neue", Helvetica;
+  text-transform: uppercase;
+  font-size: 65px;
+  font-weight: 700;
+}
+
+/* line 51, ../sass/app.scss */
+h5 {
+  font-family: "Droid Serif" !important;
+  text-transform: none;
+  font-style: italic;
+}
+
+/* line 56, ../sass/app.scss */
+footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/** Navigation **/
+/* line 64, ../sass/app.scss */
+ul.nav a:hover {
+  color: #fed136 !important;
+}
+
+/* line 68, ../sass/app.scss */
+.nav li a {
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #fff !important;
+}
+
+/* line 76, ../sass/app.scss */
+.navbar-brand {
+  color: #fed136 !important;
+  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+}
+
+/* line 81, ../sass/app.scss */
+.navbar.full {
+  height: 100px;
+  background-color: transparent !important;
+  border: transparent !important;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -moz-transition-duration: 0.8s;
+  -o-transition-duration: 0.8s;
+  -webkit-transition-duration: 0.8s;
+  transition-duration: 0.8s;
+}
+
+/* line 89, ../sass/app.scss */
+.navbar.shrink {
+  height: 60px;
+  background: #222;
+  border: none;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -moz-transition-duration: 0.8s;
+  -o-transition-duration: 0.8s;
+  -webkit-transition-duration: 0.8s;
+  transition-duration: 0.8s;
+}
+/* line 95, ../sass/app.scss */
+.navbar.shrink .navbar-logo img {
+  height: 40px;
+}
+
+/* line 100, ../sass/app.scss */
+.navbar > .container .navbar-brand,
+.navbar > .container-fluid .navbar-brand {
+  margin-left: -15px;
+  padding-top: 13px !important;
+  font-size: 25px !important;
+}
+
+/* line 107, ../sass/app.scss */
+.navbar-default .navbar-toggle {
+  border-color: #fed136 !important;
+  background-color: #fed136 !important;
+}
+
+/** SECTIONS **/
+/* line 116, ../sass/app.scss */
+.titre-section {
+  padding: 15px;
+}
+
+/* line 120, ../sass/app.scss */
+.services {
+  background-color: #fff !important;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 22px !important;
+  letter-spacing: 1px;
+  color: #333 !important;
+}
+
+/* line 131, ../sass/app.scss */
+.portfolio {
+  background-color: #f7f7f7 !important;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+/* line 135, ../sass/app.scss */
+.portfolio .objets {
+  margin-bottom: 15px;
+  background-color: #fff;
+}
+
+/* line 141, ../sass/app.scss */
+.about {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #fff !important;
+}
+
+/* line 147, ../sass/app.scss */
+.partners {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* line 153, ../sass/app.scss */
+.team {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #f7f7f7 !important;
+}
+
+/* line 159, ../sass/app.scss */
+.contact {
+  background-image: url(../img/world.jpg);
+  background-repeat: none;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/** Frise **/
+/* line 174, ../sass/app.scss */
+.divider {
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  bottom: 10%;
+  border-left: 3px solid #ddd;
+}
+
+/** CLASS PERSOS **/
+/* line 185, ../sass/app.scss */
+.vcenter {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
+
+/* line 191, ../sass/app.scss */
+.btn-yellow-xxl {
+  color: #fff;
+  background-color: #fed136;
+  border-color: #fed136;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 3px;
+  font-size: 18px;
+  padding: 40px 80px;
+}
+
+/* line 203, ../sass/app.scss */
+.text-yellow {
+  color: #fed136 !important;
+}
+
+/* line 207, ../sass/app.scss */
+.text-white {
+  color: #fff !important;
+}
+
+/* line 211, ../sass/app.scss */
+.social-links-full {
+  background-color: #222;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  font-size: 20px;
+  line-height: 40px;
+  color: #fff;
+  outline: 0;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  transition: all .3s;
+}
+/* line 223, ../sass/app.scss */
+.social-links-full:hover {
+  background-color: #fed136;
+}
+
+/* line 229, ../sass/app.scss */
+.social-links-empty {
+  background-color: transparent;
+  border: 2px solid #222;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  font-size: 20px;
+  line-height: 40px;
+  color: #fff !important;
+  outline: 0;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  transition: all .3s;
+}
+/* line 242, ../sass/app.scss */
+.social-links-empty i {
+  color: #222 !important;
+}
+/* line 245, ../sass/app.scss */
+.social-links-empty:hover {
+  background-color: #fed136;
+}
+
+/* line 251, ../sass/app.scss */
+.title-heavy {
+  font-family: Montserrat !important, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700 !important;
+}
+
+/***** Hera - Effet Codrops *****/
+/* line 264, ../sass/app.scss */
+figure.effect-hera {
+  background: #303fa9;
+}
+
+/* line 268, ../sass/app.scss */
+figure.effect-hera h2 {
+  font-size: 158.75%;
+  color: #fff !important;
+}
+
+/* line 273, ../sass/app.scss */
+figure.effect-hera h2,
+figure.effect-hera p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0);
+  -webkit-transform-origin: 50%;
+  transform-origin: 50%;
+}
+
+/* line 286, ../sass/app.scss */
+figure.effect-hera figcaption::before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 200px;
+  height: 200px;
+  border: 2px solid #fff;
+  content: '';
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-50%, -50%, 0) rotate3d(0, 0, 1, -45deg) scale3d(0, 0, 1);
+  transform: translate3d(-50%, -50%, 0) rotate3d(0, 0, 1, -45deg) scale3d(0, 0, 1);
+  -webkit-transform-origin: 50%;
+  transform-origin: 50%;
+}
+
+/* line 303, ../sass/app.scss */
+figure.effect-hera p {
+  width: 100px;
+  text-transform: none;
+  font-size: 121%;
+  line-height: 2;
+}
+
+/* line 310, ../sass/app.scss */
+figure.effect-hera p a {
+  color: #fff !important;
+}
+
+/* line 314, ../sass/app.scss */
+figure.effect-hera p a:hover,
+figure.effect-hera p a:focus {
+  opacity: 0.6;
+}
+
+/* line 319, ../sass/app.scss */
+figure.effect-hera p a i {
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+}
+
+/* line 325, ../sass/app.scss */
+figure.effect-hera p a:first-child i {
+  -webkit-transform: translate3d(-60px, -60px, 0);
+  transform: translate3d(-60px, -60px, 0);
+}
+
+/* line 330, ../sass/app.scss */
+figure.effect-hera p a:nth-child(2) i {
+  -webkit-transform: translate3d(60px, -60px, 0);
+  transform: translate3d(60px, -60px, 0);
+}
+
+/* line 335, ../sass/app.scss */
+figure.effect-hera p a:nth-child(3) i {
+  -webkit-transform: translate3d(-60px, 60px, 0);
+  transform: translate3d(-60px, 60px, 0);
+}
+
+/* line 340, ../sass/app.scss */
+figure.effect-hera p a:nth-child(4) i {
+  -webkit-transform: translate3d(60px, 60px, 0);
+  transform: translate3d(60px, 60px, 0);
+}
+
+/* line 345, ../sass/app.scss */
+figure.effect-hera:hover figcaption::before {
+  opacity: 1;
+  -webkit-transform: translate3d(-50%, -50%, 0) rotate3d(0, 0, 1, -45deg) scale3d(1, 1, 1);
+  transform: translate3d(-50%, -50%, 0) rotate3d(0, 0, 1, -45deg) scale3d(1, 1, 1);
+}
+
+/* line 351, ../sass/app.scss */
+figure.effect-hera:hover h2 {
+  opacity: 0;
+  -webkit-transform: translate3d(-50%, -50%, 0) scale3d(0.8, 0.8, 1);
+  transform: translate3d(-50%, -50%, 0) scale3d(0.8, 0.8, 1);
+}
+
+/* line 357, ../sass/app.scss */
+figure.effect-hera:hover p i:empty {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  /* just because it's stronger than nth-child */
+  opacity: 1;
+}

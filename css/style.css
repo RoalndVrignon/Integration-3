@@ -1,3 +1,17 @@
-body {
+body #page3 {
+  background-color: #edeeef;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+body #page3 .img {
+  width: 180px;
+  height: 180px;
+  margin: 0px auto;
+}
+body #page3 .fa:hover {
   background-color: blue;
+}
+body #page4 {
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
