@@ -15,3 +15,24 @@ body #page4 {
   margin-top: 40px;
   margin-bottom: 40px;
 }
+body #page5 {
+  background-color: #edeeef;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+body #page5 .input {
+  display: block;
+  margin: 15px 21px;
+  height: 47px;
+  padding-top: 8px;
+}
+body #page5 .textarea {
+  padding: 27px 12px;
+  margin-top: 11px;
+}
+body #page5 .bouton {
+  margin-top: 30px;
+}

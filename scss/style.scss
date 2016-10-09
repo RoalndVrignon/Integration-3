@@ -20,4 +20,29 @@ body {
     margin-top: 40px;
     margin-bottom: 40px;
   }
+
+  #page5{
+    background-color: #edeeef ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 40px;
+    padding-top: 40px;
+
+    .input{
+      display: block;
+      margin: 15px 21px;
+      height: 47px;
+      padding-top: 8px;
+    }
+
+    .textarea{
+      padding: 27px 12px;
+      margin-top: 11px;
+    }
+
+    .bouton{
+      margin-top: 30px;
+    }
+  }
 }
