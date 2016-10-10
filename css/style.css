@@ -128,6 +128,12 @@ section h6 {
 #services .container #icons {
   margin-top: 20%;
 }
+#services h1 {
+  font-family: Montserrat, "Helvetica Neue", Helvetica;
+}
+#services h3 {
+  font-family: Montserrat, "Helvetica Neue", Helvetica;
+}
 
 .portfolio {
   margin-top: 10%;
