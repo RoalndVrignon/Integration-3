@@ -7,6 +7,7 @@
 	<link href="font-awesome-4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet"> <!-- Link de la font du navbar-brand (logo) -->
 	<link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet"><!-- Link de la font "Welcome to our studio!" (<h2> #accueil) -->
+	<link rel="stylesheet" href="css/animate.css"><!-- Link du fichier animated.css -->
 	<title>Integration3</title>
 </head>
 
@@ -166,13 +167,13 @@
 		</div>
 		<!-- Ci-dessous : COLONNE BREAKING BAD  -->
 		<div class="row">
-			<div class="text-right col-md-4">
+			<div class="animated fadeInLeft text-right col-md-4">
 				<h4>BREAKING BAD</h4>
 				<p>Walter White & Jessy Pinkman</p>
 				<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. A asperiores aut corporis culpa debitis distinctio dolore eaque error excepturi exercitationem expedita inventore minima quas quod sequi tenetur ut, voluptates voluptatibus. </p>
 			</div>
 			<div class="text-center col-md-4">
-				<img src="img/about2.jpg" class="img-circle" style="width:160px; height: 160px;" alt="">
+				<img src="img/about2.jpg" class="animated fadeInDown img-circle" style="width:160px; height: 160px;" alt="">
 			</div>
 			<div class="col-md-4"></div>
 		</div>
@@ -180,9 +181,9 @@
 		<div class="row">
 			<div class="col-md-4"></div>
 			<div class="text-center col-md-4">
-				<img src="img/about1.jpg" class="img-circle" style="width:160px; height: 160px;" alt="">
+				<img src="img/about1.jpg" class="animated fadeIn img-circle" style="width:160px; height: 160px;" alt="">
 			</div>
-			<div class="text-left col-md-4">
+			<div class="animated fadeInRight text-left col-md-4">
 				<h4>MR.ROBOT</h4>
 				<p>F-SOCIETY</p>
 				<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. A asperiores aut corporis culpa debitis distinctio dolore eaque error excepturi exercitationem expedita inventore minima quas quod sequi tenetur ut, voluptates voluptatibus. </p>
@@ -190,13 +191,13 @@
 		</div>
 		<!-- Ci-dessous : COLONNE DEXTER  -->
 		<div class="row">
-			<div class="text-right col-md-4">
+			<div class="wow animated fadeInLeft text-right col-md-4">
 				<h4>DEXTER</h4>
 				<p>DEXTER & DEBRA MORGAN</p>
 				<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. A asperiores aut corporis culpa debitis distinctio dolore eaque error excepturi exercitationem expedita inventore minima quas quod sequi tenetur ut, voluptates voluptatibus. </p>
 			</div>
 			<div class="text-center col-md-4">
-				<img src="img/about3.jpg" class="img-circle" style="width:160px; height: 160px;" alt="">
+				<img src="img/about3.jpg" class="wow animated fadeIn img-circle" style="width:160px; height: 160px;" alt="">
 			</div>
 			<div class="col-md-4"></div>
 		</div>
@@ -204,9 +205,9 @@
 		<div class="row">
 			<div class="col-md-4"></div>
 			<div class="text-center col-md-4">
-				<img src="img/about4.jpg" class="img-circle" style="width:160px; height: 160px;" alt="">
+				<img src="img/about4.jpg" class="wow animated fadeIn img-circle" style="width:160px; height: 160px;" alt="">
 			</div>
-			<div class="text-left col-md-4">
+			<div class="wow animated fadeInRight text-left col-md-4">
 				<h4>BANSHEE</h4>
 				<p>Sherif HOOD</p>
 				<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. A asperiores aut corporis culpa debitis distinctio dolore eaque error excepturi exercitationem expedita inventore minima quas quod sequi tenetur ut, voluptates voluptatibus. </p>
@@ -215,7 +216,7 @@
 		<!-- Ci-dessous : COLONNE MISFITS  -->
 		<div class="row">
 			<div class="mb10 text-center col-md-4 col-md-offset-4">
-				<img src="img/about5.png" class="img-circle" style="width:160px; height: 160px;" alt="">
+				<img src="img/about5.png" class="wow animated fadeInUp img-circle" style="width:160px; height: 160px;" alt="">
 			</div>
 		</div>
 	</div>
@@ -341,7 +342,11 @@
 </body>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <script src="js/script.js"></script>
-
+<script src="js/wow.min.js"></script>
+<script>
+	new WOW().init();
+</script>
 
 </html>
