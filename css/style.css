@@ -11,6 +11,10 @@ body #page3 .img {
 body #page3 .fa:hover {
   background-color: blue;
 }
+body #page3 .navbar-brand {
+  color: #fed136 !important;
+  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+}
 body #page4 {
   margin-top: 40px;
   margin-bottom: 40px;
@@ -35,4 +39,38 @@ body #page5 .textarea {
 }
 body #page5 .bouton {
   margin-top: 30px;
+}
+
+section h3 {
+  font-size: 20px;
+}
+section h5 {
+  font-size: 15px;
+  color: grey;
+  font-family: "georgia";
+}
+section h6 {
+  font-size: 15px;
+  font-style: italic;
+  color: grey;
+  font-family: "georgia";
+}
+
+#services {
+  background-color: white;
+}
+#services .container #icons {
+  margin-top: 20%;
+}
+
+.portfolio {
+  margin-top: 10%;
+  background-color: #f7f7f7;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.portfolio .bloc {
+  margin-bottom: 15px;
+  background-color: #fff;
+  text-align: center;
 }
