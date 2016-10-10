@@ -22,6 +22,8 @@
   color: #fed136 !important;
 }
 
+/* *************************************************************************************** */
+/* Ci-dessous : SCSS de l'accueil (#acceuil) */
 #accueil h1 {
   color: white !important;
   font-family: Montserrat, "Helvetica Neue", Helvetica;
@@ -46,6 +48,21 @@
 }
 .btn:hover {
   color: inherit !important;
+}
+
+/* *************************************************************************************** */
+/* Ci-dessous : SCSS de la section ABOUT (#about) */
+#about h4 {
+  font-family: Montserrat, "Helvetica Neue", Helvetica;
+}
+
+/* *************************************************************************************** */
+.divider {
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  bottom: 10%;
+  border-left: 3px solid #ddd;
 }
 
 body #page3 {
