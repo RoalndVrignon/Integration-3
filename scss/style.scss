@@ -1,18 +1,49 @@
 @import "compass/css3";
-
-
+/* Ci-dessous : SCSS du HEADER (Navbar + Accueil) - Compiler dans css/style.css */
+#header {
+	background: url("../img/background.jpg") #000 no-repeat!important;
+	background-size: 100%!important;
+}
 .navbar {
 	background: none!important;
 	border: 0!important;
 	.navbar-brand {
 		color: #fed136 !important;
+		font-size: 25px!important;
 		font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive!important;
 	}
 	.nav li a {
+		color: white!important;
 		font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 		&:hover {
 			color: #fed136 !important;
 		}
+	}
+}
+#accueil {
+	h1 {
+		color: white!important;
+		font-family: Montserrat, "Helvetica Neue", Helvetica;
+		text-transform: uppercase;
+		font-size: 65px;
+		font-weight: 700;
+	}
+	h2 {
+		color: white!important;
+		margin-top: 25%;
+		font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-style: italic;
+	}
+	button {
+		margin-bottom: 30%;
+	}
+}
+.btn {
+	background-color: #fed136!important;
+	color: white!important;
+	font-weight: bold!important;
+	&:hover {
+		color: inherit!important;
 	}
 }
 
@@ -103,4 +134,40 @@ section {
 		text-align: center;
 	}
 }
+/* ********************************************************************************* */
+/* ********************************************************************************* */
+
+/* Ci-dessous : boucles permettant de créer des classes abstraites dans le fichier css. */
+
+/* ********************************************************************************* */
+/* ********************************************************************************* */
+
+
+
+$i: 0;
+@while $i <= 100 {
+	.mt#{$i} { margin-top: 1% * $i; }
+	.mb#{$i} { margin-bottom: 1% * $i; }
+	.ml#{$i} { margin-left: 1% * $i; }
+	.mr#{$i} { margin-right: 1% * $i; }
+
+	.pt#{$i} { padding-top: 1% * $i; }
+	.pb#{$i} { padding-bottom: 1% * $i; }
+	.pl#{$i} { padding-left: 1% * $i; }
+	.pr#{$i} { padding-right: 1% * $i; }
+	$i: $i +1;
+}
+/*
+
+Légende :
+  - .mt = Margin-Top;
+  - .mb = Margin-Bottom;
+  - .ml = Margin-Left;
+  - .mr = Margin-Right;
+
+  - Pour chaque tour de boucle :
+    Les margins prennent 1% :
+      - 0, 1, 2, ... ... 99, 100.
+      Compiler dans le dossier : css/style.css.
+*/
 
