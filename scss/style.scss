@@ -1,48 +1,41 @@
-@import "compass/css3";
 
-body {
-  #page3 {
-    background-color: #edeeef;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    .img {
-      width: 180px;
-      height: 180px;
-      margin: 0px auto;
-    }
-    .fa:hover{
-      background-color: blue;
-    }
+section {
+	h3{
+		font-size: 20px;
+	}
 
-  }
+	h5{
+		font-size: 15px;
+		color: grey;
+		font-family: "georgia";
+	}
 
-  #page4 {
-    margin-top: 40px;
-    margin-bottom: 40px;
-  }
-
-  #page5{
-    background-color: #edeeef ;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    padding-bottom: 40px;
-    padding-top: 40px;
-
-    .input{
-      display: block;
-      margin: 15px 21px;
-      height: 47px;
-      padding-top: 8px;
-    }
-
-    .textarea{
-      padding: 27px 12px;
-      margin-top: 11px;
-    }
-
-    .bouton{
-      margin-top: 30px;
-    }
-  }
+	h6{
+		font-size: 15px;
+		font-style: italic;
+		color: grey;
+		font-family: "georgia";
+	}
 }
+
+#services{
+	background-color: white;
+	.container{
+		#icons{
+			margin-top: 20%;
+		}
+	}
+}
+
+.portfolio {
+	margin-top: 10%;
+	background-color: #f7f7f7;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	.bloc {
+		margin-bottom: 15px;
+		background-color: #fff;
+		text-align: center;
+	}
+}
+
