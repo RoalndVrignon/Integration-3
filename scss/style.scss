@@ -1,5 +1,21 @@
 @import "compass/css3";
 
+
+.navbar {
+	background: none!important;
+	border: 0!important;
+	.navbar-brand {
+		color: #fed136 !important;
+		font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive!important;
+	}
+	.nav li a {
+		font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+		&:hover {
+			color: #fed136 !important;
+		}
+	}
+}
+
 body {
 	#page3 {
 		background-color: #edeeef;
@@ -12,10 +28,6 @@ body {
 		}
 		.fa:hover{
 			background-color: blue;
-		}
-		.navbar-brand {
-			color: #fed136 !important;
-			font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
 		}
 
 	}

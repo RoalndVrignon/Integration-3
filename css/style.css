@@ -1,3 +1,18 @@
+.navbar {
+  background: none !important;
+  border: 0 !important;
+}
+.navbar .navbar-brand {
+  color: #fed136 !important;
+  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive !important;
+}
+.navbar .nav li a {
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+.navbar .nav li a:hover {
+  color: #fed136 !important;
+}
+
 body #page3 {
   background-color: #edeeef;
   padding-top: 40px;
@@ -10,10 +25,6 @@ body #page3 .img {
 }
 body #page3 .fa:hover {
   background-color: blue;
-}
-body #page3 .navbar-brand {
-  color: #fed136 !important;
-  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
 }
 body #page4 {
   margin-top: 40px;
